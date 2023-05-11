@@ -7,3 +7,6 @@ gpg --quiet --batch --yes --decrypt --passphrase=${SBC_GPG_PASSWORD} --output $H
 chmod 600 "${HOME}/.ssh/id_rsa"
 chmod 600 "${HOME}/.ssh/id_rsa.pub"
 chmod 600 "${HOME}/.ssh/known_hosts"
+ls -l "${HOME}/.ssh/id_rsa"
+ls -l "${HOME}/.ssh/id_rsa.pub"
+ls -l "${HOME}/.ssh/known_hosts"
