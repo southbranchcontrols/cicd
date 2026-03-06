@@ -6,6 +6,11 @@
 
 	<servers>
 		<server>
+			<id>sbc</id>
+			<username>${env.SBC_REPO_USERNAME}</username>
+			<password>${env.SBC_REPO_PASSWORD}</password>
+		</server>
+		<server>
 			<id>sbc-release</id>
 			<username>${env.SBC_REPO_USERNAME}</username>
 			<password>${env.SBC_REPO_PASSWORD}</password>
@@ -16,7 +21,7 @@
 			<password>${env.SBC_REPO_PASSWORD}</password>
 		</server>
 		<server>
-			<id>sbc</id>
+			<id>sbc-mirror</id>
 			<username>${env.SBC_REPO_USERNAME}</username>
 			<password>${env.SBC_REPO_PASSWORD}</password>
 		</server>
