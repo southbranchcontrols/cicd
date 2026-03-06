@@ -25,13 +25,13 @@
 	<mirrors>
 		<mirror>
 			<id>sbc-mirror</id>
-			<name>Mirror to Avereon Maven Repository</name>
+			<name>Mirror to South Branch Controls Maven Repository</name>
 			<url>https://repo.southbranchcontrols.com/sbc</url>
 			<mirrorOf>sbc</mirrorOf>
 		</mirror>
 		<mirror>
 			<id>central-mirror</id>
-			<name>Mirror to Avereon Maven Repository</name>
+			<name>Mirror to South Branch Controls Maven Repository</name>
 			<url>https://repo.southbranchcontrols.com/central</url>
 			<mirrorOf>central</mirrorOf>
 		</mirror>
